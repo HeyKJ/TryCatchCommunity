@@ -1,6 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
+
+<style>
+  	.main-sidebar span{
+  		color:white;
+  	}
+</style>
 <header class="main-header">
     <!-- Logo -->
     <a href="index2.html" class="logo" style="background-color: black">
@@ -35,7 +40,7 @@
                   <li><!-- start message -->
                     <a href="#">
                       <div class="pull-left">
-                        <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                       	<i class="fa fa-user fa-3x" aria-hidden="true"></i>
                       </div>
                       <!-- 발신자 -->
                       <h4>
@@ -91,7 +96,7 @@
       <!-- Sidebar Owner panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+        	<i class="fa fa-user fa-3x" aria-hidden="true"></i>
         </div>
         <div class="pull-left info">
         	<!-- Owner Name -->
@@ -200,15 +205,15 @@
     <section class="content">
       <!-- Small boxes (Stat box) -->
       <div class="row">
-        <!-- Client가 온라인 상으로 주문하고 아직 수령하지 않은 건수를 나타내는 box -->
+        <!-- 당일 Client가 온라인 상으로 주문한 내역을 알려주는 box -->
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner">
-              <!-- Not Receive Count Number -->
+              <!-- 당일 예약 Count Number -->
               <h3>15<span style="font-size: 0.8em">건</span></h3>
               <!-- Title -->
-              <p>Not Receive</p>
+              <p>New </p>
             </div>
             <div class="icon">
               <i class="ion ion-bag"></i>
